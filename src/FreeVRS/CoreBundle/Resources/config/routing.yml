@@ -1,0 +1,3 @@
+free_vrs_core_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: FreeVRSCoreBundle:Default:index }

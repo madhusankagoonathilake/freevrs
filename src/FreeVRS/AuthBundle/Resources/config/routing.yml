@@ -1,0 +1,6 @@
+free_vrs_auth_login:
+    path:     /login
+    defaults: { _controller: FreeVRSAuthBundle:Default:login }
+free_vrs_auth_validate_credentials:
+    path:     /validate-credentials
+    defaults: { _controller: FreeVRSAuthBundle:Default:validateCredentials }

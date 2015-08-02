@@ -1,3 +1,15 @@
+free_vrs_shuttle_routing:
+    resource: "@FreeVRSShuttleRoutingBundle/Resources/config/routing.yml"
+    prefix:   /
+
+free_vrs_core:
+    resource: "@FreeVRSCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+free_vrs_auth:
+    resource: "@FreeVRSAuthBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

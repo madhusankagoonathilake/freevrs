@@ -1,0 +1,4 @@
+services:
+    free_vrs_auth.credentials_validation_service:
+        class: FreeVRS\AuthBundle\Service\DummyCredentialsValidationService
+        arguments: []

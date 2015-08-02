@@ -1,0 +1,3 @@
+free_vrs_shuttle_routing_homepage:
+    path:     /
+    defaults: { _controller: FreeVRSShuttleRoutingBundle:Default:index }
