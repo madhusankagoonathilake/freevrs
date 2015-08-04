@@ -15,8 +15,8 @@ class __TwigTemplate_0d5872e41d35fcdfb68229ede18d174afc399ad06ed807d6145b8fcc377
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_7da632a351c7b8ccfa0bccbf39a8720a6dca4fc6c5653d57861e2967da0d10dc = $this->env->getExtension("native_profiler");
-        $__internal_7da632a351c7b8ccfa0bccbf39a8720a6dca4fc6c5653d57861e2967da0d10dc->enter($__internal_7da632a351c7b8ccfa0bccbf39a8720a6dca4fc6c5653d57861e2967da0d10dc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.css.twig"));
+        $__internal_f96f6bc2ef4618acbc8e8c8d269c4bcd292411aa626b4431e33bc96b4b484fce = $this->env->getExtension("native_profiler");
+        $__internal_f96f6bc2ef4618acbc8e8c8d269c4bcd292411aa626b4431e33bc96b4b484fce->enter($__internal_f96f6bc2ef4618acbc8e8c8d269c4bcd292411aa626b4431e33bc96b4b484fce_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.css.twig"));
 
         // line 1
         echo ".sf-minitoolbar {
@@ -475,7 +475,7 @@ class __TwigTemplate_0d5872e41d35fcdfb68229ede18d174afc399ad06ed807d6145b8fcc377
 }
 ";
         
-        $__internal_7da632a351c7b8ccfa0bccbf39a8720a6dca4fc6c5653d57861e2967da0d10dc->leave($__internal_7da632a351c7b8ccfa0bccbf39a8720a6dca4fc6c5653d57861e2967da0d10dc_prof);
+        $__internal_f96f6bc2ef4618acbc8e8c8d269c4bcd292411aa626b4431e33bc96b4b484fce->leave($__internal_f96f6bc2ef4618acbc8e8c8d269c4bcd292411aa626b4431e33bc96b4b484fce_prof);
 
     }
 

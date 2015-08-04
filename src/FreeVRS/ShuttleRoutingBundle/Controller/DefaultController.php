@@ -3,13 +3,25 @@
 namespace FreeVRS\ShuttleRoutingBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use FreeVRS\AuthBundle\Container\Auth;
 
 class DefaultController extends Controller {
 
     public function indexAction() {
-        return $this->render('FreeVRSShuttleRoutingBundle:Default:index.html.twig', array(
-            'username' => $this->get('session')->get('auth')->getUserName(),
-        ));
+        
+        $authObj = $this->get('session')->get('auth');
+        
+        if ($authObj->getUserRole() === Auth::ADMINISTRATOR) {
+            $response = $this->render('FreeVRSShuttleRoutingBundle:Default:todays-shuttle-schedule.html.twig', array(
+                
+            ));
+        } else {
+            $response = $this->render('FreeVRSShuttleRoutingBundle:Default:current-request-status.html.twig', array(
+                'timeLeft' => '10 minutes',
+            ));
+        }
+        
+        return $response;
     }
 
 }

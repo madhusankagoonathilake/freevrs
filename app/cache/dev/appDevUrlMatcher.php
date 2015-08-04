@@ -127,6 +127,30 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
+        // free_vrs_shuttle_routing_homepage
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'free_vrs_shuttle_routing_homepage');
+            }
+
+            return array (  '_controller' => 'FreeVRS\\ShuttleRoutingBundle\\Controller\\DefaultController::indexAction',  '_route' => 'free_vrs_shuttle_routing_homepage',);
+        }
+
+        // free_vrs_core_homepage
+        if (0 === strpos($pathinfo, '/hello') && preg_match('#^/hello/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'free_vrs_core_homepage')), array (  '_controller' => 'FreeVRS\\CoreBundle\\Controller\\DefaultController::indexAction',));
+        }
+
+        // free_vrs_auth_login
+        if ($pathinfo === '/login') {
+            return array (  '_controller' => 'FreeVRS\\AuthBundle\\Controller\\DefaultController::loginAction',  '_route' => 'free_vrs_auth_login',);
+        }
+
+        // free_vrs_auth_validate_credentials
+        if ($pathinfo === '/validate-credentials') {
+            return array (  '_controller' => 'FreeVRS\\AuthBundle\\Controller\\DefaultController::validateCredentialsAction',  '_route' => 'free_vrs_auth_validate_credentials',);
+        }
+
         // homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {

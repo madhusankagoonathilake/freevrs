@@ -1,0 +1,22 @@
+{% extends 'FreeVRSCoreBundle:Default:base.html.twig' %}
+
+{% block content %}
+<div class="container">
+    <h4 class="light">Current Shuttle Request Status</h4>
+
+    <div class="card col l8 m10 s12">
+        <div class="card-image">
+            <img border="0" src="//maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&amp;zoom=13&amp;size=600x300&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C40.702147,-74.015794&amp;markers=color:green%7Clabel:G%7C40.711614,-74.012318&amp;markers=color:red%7Clabel:C%7C40.718217,-73.998284" alt="Points of Interest in Lower Manhattan">
+        </div>
+        <div class="card-content">
+            <p class="flow-text"><strong>{{ timeLeft }}</strong> remaining for your shuttle.</p>
+        </div>
+        <div class="card-action">
+            <a href="#" class="red-text">Request History</a>
+        </div>
+    </div>
+
+
+    <a href="#"></a>
+</div>
+{% endblock %}
