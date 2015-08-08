@@ -10,6 +10,7 @@ class __TwigTemplate_9ed82192471338f30e5adf7c2c6b83e33ed08c04032cb835c01e0d67639
         $this->parent = false;
 
         $this->blocks = array(
+            'stylesheets' => array($this, 'block_stylesheets'),
             'nav_menu' => array($this, 'block_nav_menu'),
             'content' => array($this, 'block_content'),
         );
@@ -17,8 +18,8 @@ class __TwigTemplate_9ed82192471338f30e5adf7c2c6b83e33ed08c04032cb835c01e0d67639
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f4b0a884cad75a40ded6e71d26825e2a93a0a27c889babad9610c73eca1d5a25 = $this->env->getExtension("native_profiler");
-        $__internal_f4b0a884cad75a40ded6e71d26825e2a93a0a27c889babad9610c73eca1d5a25->enter($__internal_f4b0a884cad75a40ded6e71d26825e2a93a0a27c889babad9610c73eca1d5a25_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FreeVRSCoreBundle:Default:base.html.twig"));
+        $__internal_532ea0957b52cc8e6487bc415e536e9f69fb738a5a47c106ed512de5cdbac637 = $this->env->getExtension("native_profiler");
+        $__internal_532ea0957b52cc8e6487bc415e536e9f69fb738a5a47c106ed512de5cdbac637->enter($__internal_532ea0957b52cc8e6487bc415e536e9f69fb738a5a47c106ed512de5cdbac637_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FreeVRSCoreBundle:Default:base.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -29,24 +30,29 @@ class __TwigTemplate_9ed82192471338f30e5adf7c2c6b83e33ed08c04032cb835c01e0d67639
         // line 5
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/freevrscore/materialize/css/materialize.min.css"), "html", null, true);
         echo "\"  media=\"screen,projection\"/>
+        <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\" />
 
+        ";
+        // line 8
+        $this->displayBlock('stylesheets', $context, $blocks);
+        // line 10
+        echo "
         <!--Let browser know website is optimized for mobile-->
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>
     </head>
 
     <body>
 
-
         <nav>
-            <div class=\"row col\">
+            <div class=\"row\">
 
                 <div class=\"nav-wrapper\">
                     <div class=\"container\">
                         <a href=\"#!\" class=\"brand-logo\">FreeVRS</a>
                        ";
-        // line 20
+        // line 23
         $this->displayBlock('nav_menu', $context, $blocks);
-        // line 21
+        // line 24
         echo "                    </div>
                 </div>
 
@@ -54,46 +60,59 @@ class __TwigTemplate_9ed82192471338f30e5adf7c2c6b83e33ed08c04032cb835c01e0d67639
         </nav>
 
         ";
-        // line 27
+        // line 30
         $this->displayBlock('content', $context, $blocks);
-        // line 28
+        // line 31
         echo "        <!--Import jQuery before materialize.js-->
         <script type=\"text/javascript\" src=\"";
-        // line 29
+        // line 32
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/freevrscore/jquery/jquery-2.1.1.min.js"), "html", null, true);
         echo "\"></script>
         <script type=\"text/javascript\" src=\"";
-        // line 30
+        // line 33
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/freevrscore/materialize/js/materialize.min.js"), "html", null, true);
         echo "\"></script>
     </body>
 </html>
 ";
         
-        $__internal_f4b0a884cad75a40ded6e71d26825e2a93a0a27c889babad9610c73eca1d5a25->leave($__internal_f4b0a884cad75a40ded6e71d26825e2a93a0a27c889babad9610c73eca1d5a25_prof);
+        $__internal_532ea0957b52cc8e6487bc415e536e9f69fb738a5a47c106ed512de5cdbac637->leave($__internal_532ea0957b52cc8e6487bc415e536e9f69fb738a5a47c106ed512de5cdbac637_prof);
 
     }
 
-    // line 20
+    // line 8
+    public function block_stylesheets($context, array $blocks = array())
+    {
+        $__internal_dfa6443a3c5fb62c8a3d07b0eb69fe86c36af1c3b5df2efc803ffb82123f0431 = $this->env->getExtension("native_profiler");
+        $__internal_dfa6443a3c5fb62c8a3d07b0eb69fe86c36af1c3b5df2efc803ffb82123f0431->enter($__internal_dfa6443a3c5fb62c8a3d07b0eb69fe86c36af1c3b5df2efc803ffb82123f0431_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+
+        // line 9
+        echo "        ";
+        
+        $__internal_dfa6443a3c5fb62c8a3d07b0eb69fe86c36af1c3b5df2efc803ffb82123f0431->leave($__internal_dfa6443a3c5fb62c8a3d07b0eb69fe86c36af1c3b5df2efc803ffb82123f0431_prof);
+
+    }
+
+    // line 23
     public function block_nav_menu($context, array $blocks = array())
     {
-        $__internal_405f526d5910ae93bdc8128b4c677ae90beb0b903947a90c6c5c521c1626d9a6 = $this->env->getExtension("native_profiler");
-        $__internal_405f526d5910ae93bdc8128b4c677ae90beb0b903947a90c6c5c521c1626d9a6->enter($__internal_405f526d5910ae93bdc8128b4c677ae90beb0b903947a90c6c5c521c1626d9a6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "nav_menu"));
+        $__internal_50aa3f23336cc4721d3b334bb4a0edc5639c04dc5f7a25ba9419232a1f3d6341 = $this->env->getExtension("native_profiler");
+        $__internal_50aa3f23336cc4721d3b334bb4a0edc5639c04dc5f7a25ba9419232a1f3d6341->enter($__internal_50aa3f23336cc4721d3b334bb4a0edc5639c04dc5f7a25ba9419232a1f3d6341_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "nav_menu"));
 
         
-        $__internal_405f526d5910ae93bdc8128b4c677ae90beb0b903947a90c6c5c521c1626d9a6->leave($__internal_405f526d5910ae93bdc8128b4c677ae90beb0b903947a90c6c5c521c1626d9a6_prof);
+        $__internal_50aa3f23336cc4721d3b334bb4a0edc5639c04dc5f7a25ba9419232a1f3d6341->leave($__internal_50aa3f23336cc4721d3b334bb4a0edc5639c04dc5f7a25ba9419232a1f3d6341_prof);
 
     }
 
-    // line 27
+    // line 30
     public function block_content($context, array $blocks = array())
     {
-        $__internal_6c39c2256249c473dab0398d847b28595e38aa6163731b6885e9aa7d6a760d5e = $this->env->getExtension("native_profiler");
-        $__internal_6c39c2256249c473dab0398d847b28595e38aa6163731b6885e9aa7d6a760d5e->enter($__internal_6c39c2256249c473dab0398d847b28595e38aa6163731b6885e9aa7d6a760d5e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_0b07131801d13cb0f9d69e228f0cfdf89733e8b606eea7e00652ddfc249583a7 = $this->env->getExtension("native_profiler");
+        $__internal_0b07131801d13cb0f9d69e228f0cfdf89733e8b606eea7e00652ddfc249583a7->enter($__internal_0b07131801d13cb0f9d69e228f0cfdf89733e8b606eea7e00652ddfc249583a7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         echo " ";
         
-        $__internal_6c39c2256249c473dab0398d847b28595e38aa6163731b6885e9aa7d6a760d5e->leave($__internal_6c39c2256249c473dab0398d847b28595e38aa6163731b6885e9aa7d6a760d5e_prof);
+        $__internal_0b07131801d13cb0f9d69e228f0cfdf89733e8b606eea7e00652ddfc249583a7->leave($__internal_0b07131801d13cb0f9d69e228f0cfdf89733e8b606eea7e00652ddfc249583a7_prof);
 
     }
 
@@ -109,6 +128,6 @@ class __TwigTemplate_9ed82192471338f30e5adf7c2c6b83e33ed08c04032cb835c01e0d67639
 
     public function getDebugInfo()
     {
-        return array (  89 => 27,  78 => 20,  67 => 30,  63 => 29,  60 => 28,  58 => 27,  50 => 21,  48 => 20,  30 => 5,  24 => 1,);
+        return array (  108 => 30,  97 => 23,  90 => 9,  84 => 8,  73 => 33,  69 => 32,  66 => 31,  64 => 30,  56 => 24,  54 => 23,  39 => 10,  37 => 8,  31 => 5,  25 => 1,);
     }
 }

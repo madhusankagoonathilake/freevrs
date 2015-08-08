@@ -1,7 +1,106 @@
 {% extends 'FreeVRSCoreBundle:Default:base.html.twig' %}
 
+{% block nav_menu %}
+{% endblock %}
+
+{% block stylesheets %}
+<style type="text/css">
+    table.schedule thead tr th,
+    table.schedule tbody tr td
+    {
+        padding-left: 2%;
+    }
+</style>
+{% endblock %}
+
 {% block content %}
 <div class="container">
+
     <h4 class="light">Today's Shuttle Schedule</h4>
+
+    <div class="row">
+        <div class="col l4 m6 s12">
+            <div class="card">
+                <div class="card-content center">
+                    <h3 class="light">07:00 PM</h3>
+                </div>
+                <div class="card-action center">
+                    <a href="#" class="red-text">38 people</a>
+                    <a href="#" class="red-text">3 routes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col l4 m6 s12">
+            <div class="card green lighten-2">
+                <div class="card-content center">
+                    <h3 class="light">07:30 PM</h3>
+                </div>
+                <div class="card-action center">
+                    <a href="#" class="black-text">66 people</a>
+                    <a href="#" class="black-text">5 routes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col l4 m6 s12">
+            <div class="card">
+                <div class="card-content center">
+                    <h3 class="light">08:00 PM</h3>
+                </div>
+                <div class="card-action center">
+                    <a href="#" class="red-text">22 people</a>
+                    <a href="#" class="red-text">2 routes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col l4 m6 s12">
+            <div class="card">
+                <div class="card-content center">
+                    <h3 class="light">08:30 PM</h3>
+                </div>
+                <div class="card-action center">
+                    <a href="#" class="red-text">40 people</a>
+                    <a href="#" class="red-text">3 routes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col l4 m6 s12">
+            <div class="card">
+                <div class="card-content center">
+                    <h3 class="light">09:00 PM</h3>
+                </div>
+                <div class="card-action center">
+                    <a href="#" class="red-text">111 people</a>
+                    <a href="#" class="red-text">8 routes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col l4 m6 s12">
+            <div class="card">
+                <div class="card-content center">
+                    <h3 class="light">09:30 PM</h3>
+                </div>
+                <div class="card-action center">
+                    <a href="#" class="red-text">12 people</a>
+                    <a href="#" class="red-text">1 routes</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <button class="btn-large">View Past Records</button>
+        </div>
+    </div>
+
 </div>
+
+<div class="fixed-action-btn" style="bottom: 10%; right: 1%; top: unset;">
+    <a class="btn-floating btn-large waves-effect waves-light red tooltipped" data-tooltip="Add a time slot" data-position="left">
+        <i class="material-icons">add</i>
+    </a>
+</div>
+
 {% endblock %}
