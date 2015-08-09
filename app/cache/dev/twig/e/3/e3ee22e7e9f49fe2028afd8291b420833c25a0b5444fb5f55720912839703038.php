@@ -21,55 +21,55 @@ class __TwigTemplate_e3ee22e7e9f49fe2028afd8291b420833c25a0b5444fb5f557209128397
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_d1700d0b4d2805a4c506b944ef4e0646e2385da3bcab23cb283d6d4a383168d3 = $this->env->getExtension("native_profiler");
-        $__internal_d1700d0b4d2805a4c506b944ef4e0646e2385da3bcab23cb283d6d4a383168d3->enter($__internal_d1700d0b4d2805a4c506b944ef4e0646e2385da3bcab23cb283d6d4a383168d3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FreeVRSAuthBundle:Default:login.html.twig"));
+        $__internal_39e870eb698cf3948a63589a36bea6fa297fe3598a8fd66c4f9ef3021b6ea0cd = $this->env->getExtension("native_profiler");
+        $__internal_39e870eb698cf3948a63589a36bea6fa297fe3598a8fd66c4f9ef3021b6ea0cd->enter($__internal_39e870eb698cf3948a63589a36bea6fa297fe3598a8fd66c4f9ef3021b6ea0cd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FreeVRSAuthBundle:Default:login.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_d1700d0b4d2805a4c506b944ef4e0646e2385da3bcab23cb283d6d4a383168d3->leave($__internal_d1700d0b4d2805a4c506b944ef4e0646e2385da3bcab23cb283d6d4a383168d3_prof);
+        $__internal_39e870eb698cf3948a63589a36bea6fa297fe3598a8fd66c4f9ef3021b6ea0cd->leave($__internal_39e870eb698cf3948a63589a36bea6fa297fe3598a8fd66c4f9ef3021b6ea0cd_prof);
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
-        $__internal_a8edee6c317ebc224d70f93cde66d8afc91e8c78489d39a5d49779a304652283 = $this->env->getExtension("native_profiler");
-        $__internal_a8edee6c317ebc224d70f93cde66d8afc91e8c78489d39a5d49779a304652283->enter($__internal_a8edee6c317ebc224d70f93cde66d8afc91e8c78489d39a5d49779a304652283_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_bcb50e5f5974a36bb116bf1165fe16b625fd5138b631c517dbb73ee24865aae5 = $this->env->getExtension("native_profiler");
+        $__internal_bcb50e5f5974a36bb116bf1165fe16b625fd5138b631c517dbb73ee24865aae5->enter($__internal_bcb50e5f5974a36bb116bf1165fe16b625fd5138b631c517dbb73ee24865aae5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 4
         echo "<div class=\"container\">
-<div class=\"row\">
 
     <form class=\"col l6 m12 s12\" method=\"post\" action=\"";
-        // line 7
+        // line 6
         echo $this->env->getExtension('routing')->getPath("free_vrs_auth_validate_credentials");
         echo "\">
 
         <h4 class=\"light\">Login</h4>
-        
+
         <div class=\"row\">
-            <div class=\"input-field col s12\">
-                <input id=\"username\" name=\"username\" type=\"text\" class=\"validate\">
+            <div class=\"input-field col l4 m8 s10\">
+                <input id=\"username\" name=\"username\" type=\"text\" class=\"validate\" />
                 <label for=\"first_name\">Username</label>
             </div>
         </div>
 
         <div class=\"row\">
-            <div class=\"input-field col s12\">
-                <input id=\"password\" name=\"password\" type=\"password\" class=\"validate\">
+            <div class=\"input-field col l4 m8 s10\">
+                <input id=\"password\" name=\"password\" type=\"password\" class=\"validate\" />
                 <label for=\"password\">Password</label>
             </div>
         </div>
 
         <div class=\"row\">
-            <button class=\"waves-effect waves-light btn\" type=\"submit\">Login</button>
+            <div class=\"col\">
+                <button class=\"waves-effect waves-light btn\" type=\"submit\">Login</button>
+            </div>
         </div>
     </form>
 </div>
-</div>
 ";
         
-        $__internal_a8edee6c317ebc224d70f93cde66d8afc91e8c78489d39a5d49779a304652283->leave($__internal_a8edee6c317ebc224d70f93cde66d8afc91e8c78489d39a5d49779a304652283_prof);
+        $__internal_bcb50e5f5974a36bb116bf1165fe16b625fd5138b631c517dbb73ee24865aae5->leave($__internal_bcb50e5f5974a36bb116bf1165fe16b625fd5138b631c517dbb73ee24865aae5_prof);
 
     }
 
@@ -85,6 +85,6 @@ class __TwigTemplate_e3ee22e7e9f49fe2028afd8291b420833c25a0b5444fb5f557209128397
 
     public function getDebugInfo()
     {
-        return array (  45 => 7,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  44 => 6,  40 => 4,  34 => 3,  11 => 1,);
     }
 }

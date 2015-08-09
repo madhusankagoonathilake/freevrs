@@ -21,20 +21,20 @@ class __TwigTemplate_864fadfb567ea7fbb2bb868142b4299b5bf700cd90803cf5f3ef0ccc458
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_1eae8f2e57e7ac6f7be1a081c5c5b0370a13326488143982dcc3b331e6ac21d9 = $this->env->getExtension("native_profiler");
-        $__internal_1eae8f2e57e7ac6f7be1a081c5c5b0370a13326488143982dcc3b331e6ac21d9->enter($__internal_1eae8f2e57e7ac6f7be1a081c5c5b0370a13326488143982dcc3b331e6ac21d9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FreeVRSShuttleRoutingBundle:Default:current-request-status.html.twig"));
+        $__internal_b9d8be41b896b9a74206c09443bb1df41b47ea61ac85524449d07c9698570487 = $this->env->getExtension("native_profiler");
+        $__internal_b9d8be41b896b9a74206c09443bb1df41b47ea61ac85524449d07c9698570487->enter($__internal_b9d8be41b896b9a74206c09443bb1df41b47ea61ac85524449d07c9698570487_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FreeVRSShuttleRoutingBundle:Default:current-request-status.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_1eae8f2e57e7ac6f7be1a081c5c5b0370a13326488143982dcc3b331e6ac21d9->leave($__internal_1eae8f2e57e7ac6f7be1a081c5c5b0370a13326488143982dcc3b331e6ac21d9_prof);
+        $__internal_b9d8be41b896b9a74206c09443bb1df41b47ea61ac85524449d07c9698570487->leave($__internal_b9d8be41b896b9a74206c09443bb1df41b47ea61ac85524449d07c9698570487_prof);
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
-        $__internal_7978112bd514233ed41285ba8b222640e0e88abb79181aaa01562a2b71fdaeca = $this->env->getExtension("native_profiler");
-        $__internal_7978112bd514233ed41285ba8b222640e0e88abb79181aaa01562a2b71fdaeca->enter($__internal_7978112bd514233ed41285ba8b222640e0e88abb79181aaa01562a2b71fdaeca_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_7fb52e6aefb66a80a6b84b4a625d62515c0a7ac0ac50b681eeb34e3961ab0e73 = $this->env->getExtension("native_profiler");
+        $__internal_7fb52e6aefb66a80a6b84b4a625d62515c0a7ac0ac50b681eeb34e3961ab0e73->enter($__internal_7fb52e6aefb66a80a6b84b4a625d62515c0a7ac0ac50b681eeb34e3961ab0e73_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 4
         echo "<div class=\"container\">
@@ -51,7 +51,7 @@ class __TwigTemplate_864fadfb567ea7fbb2bb868142b4299b5bf700cd90803cf5f3ef0ccc458
         echo "</strong> remaining for your shuttle.</p>
         </div>
         <div class=\"card-action\">
-            <a href=\"#\" class=\"red-text\">Request History</a>
+            <a href=\"#\" class=\"red-text\">History of Requests</a>
         </div>
     </div>
 
@@ -60,7 +60,7 @@ class __TwigTemplate_864fadfb567ea7fbb2bb868142b4299b5bf700cd90803cf5f3ef0ccc458
 </div>
 ";
         
-        $__internal_7978112bd514233ed41285ba8b222640e0e88abb79181aaa01562a2b71fdaeca->leave($__internal_7978112bd514233ed41285ba8b222640e0e88abb79181aaa01562a2b71fdaeca_prof);
+        $__internal_7fb52e6aefb66a80a6b84b4a625d62515c0a7ac0ac50b681eeb34e3961ab0e73->leave($__internal_7fb52e6aefb66a80a6b84b4a625d62515c0a7ac0ac50b681eeb34e3961ab0e73_prof);
 
     }
 

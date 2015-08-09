@@ -1,3 +1,6 @@
 free_vrs_shuttle_routing_homepage:
     path:     /
     defaults: { _controller: FreeVRSShuttleRoutingBundle:Default:index }
+free_vrs_shuttle_routing_add_timeslot:
+    path:     /add-time-slot
+    defaults: { _controller: FreeVRSShuttleRoutingBundle:Default:addTimeSlot }
