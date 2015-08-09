@@ -3,7 +3,7 @@
 {% block content %}
 <div class="container">
 
-    <form class="col l6 m12 s12" method="post" action="{{ path('free_vrs_auth_validate_credentials') }}">
+    <form class="col l6 m12 s12" method="post" action="#!">
 
         <h4 class="light">Add Time Slot</h4>
 
@@ -46,7 +46,7 @@
         <div class="row">
             <div class="col">
                 <button class="waves-effect waves-light btn" type="submit">Add</button>
-                <button class="btn-flat white red-text" type="button">Cancel</button>
+                <button id="cancel" class="btn-flat white red-text" type="button">Cancel</button>
             </div>
         </div>
     </form>
@@ -64,6 +64,10 @@
     
     $('input[type="range"]').on('input', function() {
         $($(this).data('target')).html($(this).val());
+    });
+    
+    $('#cancel').on('click', function() {
+        location.href = '{{ path('free_vrs_shuttle_routing_homepage') }}';
     });
 </script>
 {% endblock %}
