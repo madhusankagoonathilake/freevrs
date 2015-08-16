@@ -26,5 +26,11 @@ class DefaultController extends Controller {
     public function addTimeSlotAction() {
         return $this->render('FreeVRSShuttleRoutingBundle:Default:add-time-slot.html.twig', array());
     }
+    public function viewTimeSlotAction($date, $time) {
+        return $this->render('FreeVRSShuttleRoutingBundle:Default:time-slot.html.twig', array(
+            'date' => $date,
+            'time' => $time,
+        ));
+    }
 
 }

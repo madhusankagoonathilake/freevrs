@@ -4,3 +4,6 @@ free_vrs_shuttle_routing_homepage:
 free_vrs_shuttle_routing_add_timeslot:
     path:     /add-time-slot
     defaults: { _controller: FreeVRSShuttleRoutingBundle:Default:addTimeSlot }
+free_vrs_shuttle_routing_view_timeslot:
+    path:     /time-slot/{date}/{time}
+    defaults: { _controller: FreeVRSShuttleRoutingBundle:Default:viewTimeSlot }

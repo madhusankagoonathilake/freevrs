@@ -23,31 +23,31 @@ class __TwigTemplate_442d8bf28333a5b61646628d6b016effb2ec7c664f9ceb8559c51db6076
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f9273497e97d515ff1cbcad4f0256c94be246130e6369c633b4b4346a13029bc = $this->env->getExtension("native_profiler");
-        $__internal_f9273497e97d515ff1cbcad4f0256c94be246130e6369c633b4b4346a13029bc->enter($__internal_f9273497e97d515ff1cbcad4f0256c94be246130e6369c633b4b4346a13029bc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FreeVRSShuttleRoutingBundle:Default:todays-shuttle-schedule.html.twig"));
+        $__internal_8d7a441acb7a2c2645f7c5497d15b4a8a00724fff0798a61ab4b65eb8f992eaa = $this->env->getExtension("native_profiler");
+        $__internal_8d7a441acb7a2c2645f7c5497d15b4a8a00724fff0798a61ab4b65eb8f992eaa->enter($__internal_8d7a441acb7a2c2645f7c5497d15b4a8a00724fff0798a61ab4b65eb8f992eaa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FreeVRSShuttleRoutingBundle:Default:todays-shuttle-schedule.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_f9273497e97d515ff1cbcad4f0256c94be246130e6369c633b4b4346a13029bc->leave($__internal_f9273497e97d515ff1cbcad4f0256c94be246130e6369c633b4b4346a13029bc_prof);
+        $__internal_8d7a441acb7a2c2645f7c5497d15b4a8a00724fff0798a61ab4b65eb8f992eaa->leave($__internal_8d7a441acb7a2c2645f7c5497d15b4a8a00724fff0798a61ab4b65eb8f992eaa_prof);
 
     }
 
     // line 3
     public function block_nav_menu($context, array $blocks = array())
     {
-        $__internal_9aacb142adf433f0c24296750279da6b8a851059cbe98c508657b9d83e6aca20 = $this->env->getExtension("native_profiler");
-        $__internal_9aacb142adf433f0c24296750279da6b8a851059cbe98c508657b9d83e6aca20->enter($__internal_9aacb142adf433f0c24296750279da6b8a851059cbe98c508657b9d83e6aca20_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "nav_menu"));
+        $__internal_d2928765c12dc2a6a019302f74987d903ccb6d2cef7f67b76fee61571317d89c = $this->env->getExtension("native_profiler");
+        $__internal_d2928765c12dc2a6a019302f74987d903ccb6d2cef7f67b76fee61571317d89c->enter($__internal_d2928765c12dc2a6a019302f74987d903ccb6d2cef7f67b76fee61571317d89c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "nav_menu"));
 
         
-        $__internal_9aacb142adf433f0c24296750279da6b8a851059cbe98c508657b9d83e6aca20->leave($__internal_9aacb142adf433f0c24296750279da6b8a851059cbe98c508657b9d83e6aca20_prof);
+        $__internal_d2928765c12dc2a6a019302f74987d903ccb6d2cef7f67b76fee61571317d89c->leave($__internal_d2928765c12dc2a6a019302f74987d903ccb6d2cef7f67b76fee61571317d89c_prof);
 
     }
 
     // line 6
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_91fe1bb57b5126d9847666810d3c7a604d46f43608429e2424f88a157e0fedb1 = $this->env->getExtension("native_profiler");
-        $__internal_91fe1bb57b5126d9847666810d3c7a604d46f43608429e2424f88a157e0fedb1->enter($__internal_91fe1bb57b5126d9847666810d3c7a604d46f43608429e2424f88a157e0fedb1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_b76e03c06562c5a4815b00ccad38d988a33ab539e4eec12a04788e7087f6e235 = $this->env->getExtension("native_profiler");
+        $__internal_b76e03c06562c5a4815b00ccad38d988a33ab539e4eec12a04788e7087f6e235->enter($__internal_b76e03c06562c5a4815b00ccad38d988a33ab539e4eec12a04788e7087f6e235_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 7
         echo "<style type=\"text/css\">
@@ -59,15 +59,15 @@ class __TwigTemplate_442d8bf28333a5b61646628d6b016effb2ec7c664f9ceb8559c51db6076
 </style>
 ";
         
-        $__internal_91fe1bb57b5126d9847666810d3c7a604d46f43608429e2424f88a157e0fedb1->leave($__internal_91fe1bb57b5126d9847666810d3c7a604d46f43608429e2424f88a157e0fedb1_prof);
+        $__internal_b76e03c06562c5a4815b00ccad38d988a33ab539e4eec12a04788e7087f6e235->leave($__internal_b76e03c06562c5a4815b00ccad38d988a33ab539e4eec12a04788e7087f6e235_prof);
 
     }
 
     // line 16
     public function block_content($context, array $blocks = array())
     {
-        $__internal_0d60693b0a3ea41b84ee05e10fe60b14c240b6219c09b6f9e466bc8c75db868a = $this->env->getExtension("native_profiler");
-        $__internal_0d60693b0a3ea41b84ee05e10fe60b14c240b6219c09b6f9e466bc8c75db868a->enter($__internal_0d60693b0a3ea41b84ee05e10fe60b14c240b6219c09b6f9e466bc8c75db868a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_170d71205f4e176788ea0540a1e3c65b91b7d0bb88d1327a7106929a2896dfba = $this->env->getExtension("native_profiler");
+        $__internal_170d71205f4e176788ea0540a1e3c65b91b7d0bb88d1327a7106929a2896dfba->enter($__internal_170d71205f4e176788ea0540a1e3c65b91b7d0bb88d1327a7106929a2896dfba_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 17
         echo "<div class=\"container\">
@@ -81,7 +81,7 @@ class __TwigTemplate_442d8bf28333a5b61646628d6b016effb2ec7c664f9ceb8559c51db6076
                     <h3 class=\"light\">07:00 PM</h3>
                 </div>
                 <div class=\"card-action center\">
-                    <a href=\"#\" class=\"red-text\">38 people</a>
+                    <a href=\"#\" class=\"red-text\">38 persons</a>
                     <a href=\"#\" class=\"red-text\">3 routes</a>
                 </div>
             </div>
@@ -92,8 +92,14 @@ class __TwigTemplate_442d8bf28333a5b61646628d6b016effb2ec7c664f9ceb8559c51db6076
                     <h3 class=\"light\">07:30 PM</h3>
                 </div>
                 <div class=\"card-action center\">
-                    <a href=\"#\" class=\"green-text text-darken-4\">66 people</a>
-                    <a href=\"#\" class=\"green-text text-darken-4\">5 routes</a>
+                    <a href=\"";
+        // line 39
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("free_vrs_shuttle_routing_view_timeslot", array("date" => "2015-08-01", "time" => "07:30")), "html", null, true);
+        echo "\" class=\"green-text text-darken-4\">66 persons</a>
+                    <a href=\"";
+        // line 40
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("free_vrs_shuttle_routing_view_timeslot", array("date" => "2015-08-01", "time" => "07:30")), "html", null, true);
+        echo "\" class=\"green-text text-darken-4\">5 routes</a>
                 </div>
             </div>
         </div>
@@ -103,7 +109,7 @@ class __TwigTemplate_442d8bf28333a5b61646628d6b016effb2ec7c664f9ceb8559c51db6076
                     <h3 class=\"light\">08:00 PM</h3>
                 </div>
                 <div class=\"card-action center\">
-                    <a href=\"#\" class=\"red-text\">22 people</a>
+                    <a href=\"#\" class=\"red-text\">22 persons</a>
                     <a href=\"#\" class=\"red-text\">2 routes</a>
                 </div>
             </div>
@@ -114,7 +120,7 @@ class __TwigTemplate_442d8bf28333a5b61646628d6b016effb2ec7c664f9ceb8559c51db6076
                     <h3 class=\"light\">08:30 PM</h3>
                 </div>
                 <div class=\"card-action center\">
-                    <a href=\"#\" class=\"red-text\">40 people</a>
+                    <a href=\"#\" class=\"red-text\">40 persons</a>
                     <a href=\"#\" class=\"red-text\">3 routes</a>
                 </div>
             </div>
@@ -125,7 +131,7 @@ class __TwigTemplate_442d8bf28333a5b61646628d6b016effb2ec7c664f9ceb8559c51db6076
                     <h3 class=\"light\">09:00 PM</h3>
                 </div>
                 <div class=\"card-action center\">
-                    <a href=\"#\" class=\"red-text\">111 people</a>
+                    <a href=\"#\" class=\"red-text\">111 persons</a>
                     <a href=\"#\" class=\"red-text\">8 routes</a>
                 </div>
             </div>
@@ -136,7 +142,7 @@ class __TwigTemplate_442d8bf28333a5b61646628d6b016effb2ec7c664f9ceb8559c51db6076
                     <h3 class=\"light\">09:30 PM</h3>
                 </div>
                 <div class=\"card-action center\">
-                    <a href=\"#\" class=\"red-text\">12 people</a>
+                    <a href=\"#\" class=\"red-text\">12 persons</a>
                     <a href=\"#\" class=\"red-text\">1 routes</a>
                 </div>
             </div>
@@ -165,7 +171,7 @@ class __TwigTemplate_442d8bf28333a5b61646628d6b016effb2ec7c664f9ceb8559c51db6076
 
 ";
         
-        $__internal_0d60693b0a3ea41b84ee05e10fe60b14c240b6219c09b6f9e466bc8c75db868a->leave($__internal_0d60693b0a3ea41b84ee05e10fe60b14c240b6219c09b6f9e466bc8c75db868a_prof);
+        $__internal_170d71205f4e176788ea0540a1e3c65b91b7d0bb88d1327a7106929a2896dfba->leave($__internal_170d71205f4e176788ea0540a1e3c65b91b7d0bb88d1327a7106929a2896dfba_prof);
 
     }
 
@@ -181,6 +187,6 @@ class __TwigTemplate_442d8bf28333a5b61646628d6b016effb2ec7c664f9ceb8559c51db6076
 
     public function getDebugInfo()
     {
-        return array (  159 => 101,  73 => 17,  67 => 16,  53 => 7,  47 => 6,  36 => 3,  11 => 1,);
+        return array (  165 => 101,  101 => 40,  97 => 39,  73 => 17,  67 => 16,  53 => 7,  47 => 6,  36 => 3,  11 => 1,);
     }
 }
