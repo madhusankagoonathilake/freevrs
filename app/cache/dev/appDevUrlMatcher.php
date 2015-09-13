@@ -146,6 +146,11 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'free_vrs_shuttle_routing_view_timeslot')), array (  '_controller' => 'FreeVRS\\ShuttleRoutingBundle\\Controller\\DefaultController::viewTimeSlotAction',));
         }
 
+        // free_vrs_shuttle_routing_view_route
+        if (0 === strpos($pathinfo, '/route') && preg_match('#^/route/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'free_vrs_shuttle_routing_view_route')), array (  '_controller' => 'FreeVRS\\ShuttleRoutingBundle\\Controller\\DefaultController::viewRouteAction',));
+        }
+
         // free_vrs_core_homepage
         if (0 === strpos($pathinfo, '/hello') && preg_match('#^/hello/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'free_vrs_core_homepage')), array (  '_controller' => 'FreeVRS\\CoreBundle\\Controller\\DefaultController::indexAction',));

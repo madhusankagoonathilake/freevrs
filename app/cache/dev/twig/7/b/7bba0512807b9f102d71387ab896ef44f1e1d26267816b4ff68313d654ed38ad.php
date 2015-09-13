@@ -21,20 +21,20 @@ class __TwigTemplate_7bba0512807b9f102d71387ab896ef44f1e1d26267816b4ff68313d654e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_811f5ecd9ca139f435486af172c10a24b3cf4ff5ab1bf256cb82b25fbf6ae1ec = $this->env->getExtension("native_profiler");
-        $__internal_811f5ecd9ca139f435486af172c10a24b3cf4ff5ab1bf256cb82b25fbf6ae1ec->enter($__internal_811f5ecd9ca139f435486af172c10a24b3cf4ff5ab1bf256cb82b25fbf6ae1ec_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FreeVRSShuttleRoutingBundle:Default:time-slot.html.twig"));
+        $__internal_c17e6e7fc41ee37ba8d5f55bf1dae9ca157214b17a58e4b7e3d70b7ee05ba47b = $this->env->getExtension("native_profiler");
+        $__internal_c17e6e7fc41ee37ba8d5f55bf1dae9ca157214b17a58e4b7e3d70b7ee05ba47b->enter($__internal_c17e6e7fc41ee37ba8d5f55bf1dae9ca157214b17a58e4b7e3d70b7ee05ba47b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FreeVRSShuttleRoutingBundle:Default:time-slot.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_811f5ecd9ca139f435486af172c10a24b3cf4ff5ab1bf256cb82b25fbf6ae1ec->leave($__internal_811f5ecd9ca139f435486af172c10a24b3cf4ff5ab1bf256cb82b25fbf6ae1ec_prof);
+        $__internal_c17e6e7fc41ee37ba8d5f55bf1dae9ca157214b17a58e4b7e3d70b7ee05ba47b->leave($__internal_c17e6e7fc41ee37ba8d5f55bf1dae9ca157214b17a58e4b7e3d70b7ee05ba47b_prof);
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
-        $__internal_5a1cb328dddf7c3a72fc1005ae96ba8ca46222ae54903f824c4610b1e86154d4 = $this->env->getExtension("native_profiler");
-        $__internal_5a1cb328dddf7c3a72fc1005ae96ba8ca46222ae54903f824c4610b1e86154d4->enter($__internal_5a1cb328dddf7c3a72fc1005ae96ba8ca46222ae54903f824c4610b1e86154d4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_c70ac6aab9db1d65f8224141f75e460b8f0c2710347c3a926dfc20ca7f7fbf2f = $this->env->getExtension("native_profiler");
+        $__internal_c70ac6aab9db1d65f8224141f75e460b8f0c2710347c3a926dfc20ca7f7fbf2f->enter($__internal_c70ac6aab9db1d65f8224141f75e460b8f0c2710347c3a926dfc20ca7f7fbf2f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 4
         echo "<div class=\"container\">
@@ -80,7 +80,10 @@ class __TwigTemplate_7bba0512807b9f102d71387ab896ef44f1e1d26267816b4ff68313d654e
                         <tfoot>
                             <tr>
                                 <td colspan=\"2\">
-                                    <a href=\"#!\" class=\"red-text\">Details</a>
+                                    <a href=\"";
+        // line 42
+        echo $this->env->getExtension('routing')->getPath("free_vrs_shuttle_routing_view_route", array("id" => 1));
+        echo "\" class=\"red-text\">Details</a>
                                 </td>
                             </tr>
                         </tfoot>
@@ -121,7 +124,10 @@ class __TwigTemplate_7bba0512807b9f102d71387ab896ef44f1e1d26267816b4ff68313d654e
                         <tfoot>
                             <tr>
                                 <td colspan=\"2\">
-                                    <a href=\"#!\" class=\"red-text\">Details</a>
+                                    <a href=\"";
+        // line 83
+        echo $this->env->getExtension('routing')->getPath("free_vrs_shuttle_routing_view_route", array("id" => 1));
+        echo "\" class=\"red-text\">Details</a>
                                 </td>
                             </tr>
                         </tfoot>
@@ -162,7 +168,10 @@ class __TwigTemplate_7bba0512807b9f102d71387ab896ef44f1e1d26267816b4ff68313d654e
                         <tfoot>
                             <tr>
                                 <td colspan=\"2\">
-                                    <a href=\"#!\" class=\"red-text\">Details</a>
+                                    <a href=\"";
+        // line 124
+        echo $this->env->getExtension('routing')->getPath("free_vrs_shuttle_routing_view_route", array("id" => 1));
+        echo "\" class=\"red-text\">Details</a>
                                 </td>
                             </tr>
                         </tfoot>
@@ -203,7 +212,10 @@ class __TwigTemplate_7bba0512807b9f102d71387ab896ef44f1e1d26267816b4ff68313d654e
                         <tfoot>
                             <tr>
                                 <td colspan=\"2\">
-                                    <a href=\"#!\" class=\"red-text\">Details</a>
+                                    <a href=\"";
+        // line 165
+        echo $this->env->getExtension('routing')->getPath("free_vrs_shuttle_routing_view_route", array("id" => 1));
+        echo "\" class=\"red-text\">Details</a>
                                 </td>
                             </tr>
                         </tfoot>
@@ -244,7 +256,10 @@ class __TwigTemplate_7bba0512807b9f102d71387ab896ef44f1e1d26267816b4ff68313d654e
                         <tfoot>
                             <tr>
                                 <td colspan=\"2\">
-                                    <a href=\"#!\" class=\"red-text\">Details</a>
+                                    <a href=\"";
+        // line 206
+        echo $this->env->getExtension('routing')->getPath("free_vrs_shuttle_routing_view_route", array("id" => 1));
+        echo "\" class=\"red-text\">Details</a>
                                 </td>
                             </tr>
                         </tfoot>
@@ -258,10 +273,9 @@ class __TwigTemplate_7bba0512807b9f102d71387ab896ef44f1e1d26267816b4ff68313d654e
     </div>
 </div>
 
-
 ";
         
-        $__internal_5a1cb328dddf7c3a72fc1005ae96ba8ca46222ae54903f824c4610b1e86154d4->leave($__internal_5a1cb328dddf7c3a72fc1005ae96ba8ca46222ae54903f824c4610b1e86154d4_prof);
+        $__internal_c70ac6aab9db1d65f8224141f75e460b8f0c2710347c3a926dfc20ca7f7fbf2f->leave($__internal_c70ac6aab9db1d65f8224141f75e460b8f0c2710347c3a926dfc20ca7f7fbf2f_prof);
 
     }
 
@@ -277,6 +291,6 @@ class __TwigTemplate_7bba0512807b9f102d71387ab896ef44f1e1d26267816b4ff68313d654e
 
     public function getDebugInfo()
     {
-        return array (  43 => 5,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  261 => 206,  217 => 165,  173 => 124,  129 => 83,  85 => 42,  43 => 5,  40 => 4,  34 => 3,  11 => 1,);
     }
 }

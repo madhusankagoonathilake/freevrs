@@ -1,0 +1,91 @@
+{% extends 'FreeVRSCoreBundle:Default:base.html.twig' %}
+
+{% block content %}
+<div class="container">
+    <h4 class="light">{{ routeName }} of Time Slot {{ time }} on {{ date }} </h4>
+    <div class="row">
+
+        <div class="card col l8 m10 s12">
+            <div class="card-image">
+                <img border="0" src="//maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&amp;zoom=13&amp;size=600x300&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C40.702147,-74.015794&amp;markers=color:green%7Clabel:G%7C40.711614,-74.012318&amp;markers=color:red%7Clabel:C%7C40.718217,-73.998284" alt="Route to the Destination">
+            </div>
+            <div class="card-content">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Vehicle</th>
+                            <td>WPL 34562</td>
+                        </tr>
+                        <tr>
+                            <th>Driver</th>
+                            <td>Alan Taylor</td>
+                        </tr>
+                        <tr>
+                            <th>Distance</th>
+                            <td>108 km</td>
+                        </tr>
+                        <tr>
+                            <th style="vertical-align: top">Passengers</th>
+                            <td>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Passenger 1</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger 2</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger 3</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger 4</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger 5</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger 6</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger 7</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger 8</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger 9</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger 10</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger 11</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger 12</td>
+                                            <td>Destination</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

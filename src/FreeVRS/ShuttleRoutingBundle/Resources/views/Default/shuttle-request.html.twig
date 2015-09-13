@@ -1,0 +1,43 @@
+{% extends 'FreeVRSCoreBundle:Default:base.html.twig' %}
+
+{% block content %}
+<div class="container">
+
+    <form class="col l6 m12 s12" method="post" action="#!">
+
+        <h4 class="light">Shuttle Request</h4>
+
+        <div class="row">
+            <div class="input-field col l3 m5 s6">
+                <input id="date" type="date" class="datepicker" />
+                <label for="date">Date</label>
+            </div>
+            <div class="input-field col l3 m5 s6">
+                <input id="timeslot" name="timeslot" type="text" class="validate" />
+                <label for="time">Time Slot</label>
+            </div>
+        </div>
+        
+        <div class="row">
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button class="waves-effect waves-light btn" type="submit">Make Request</button>
+                <button id="cancel" class="btn-flat white red-text" type="button">View Past Requests</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
+
+{% block javascripts %}
+<script type="text/javascript">
+    $('.datepicker').pickadate({
+        format: 'yyyy-mm-dd',
+        selectMonths: true, 
+        selectYears: 2
+    });
+</script>
+{% endblock %}
